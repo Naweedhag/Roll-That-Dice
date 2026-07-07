@@ -6,6 +6,9 @@ function rollTheDice(){
     const imagevalue = [];
 
     for(let i = 0; i<diceno ;i++){
-        const value = Math.floor(Math.random()*6) +1
+        const value = Math.floor(Math.random()*6) +1;
+        myvalue.push(value);
+        imagevalue.push(`<img src="dice Images/${value}.png">`);
     }
+    
 }
