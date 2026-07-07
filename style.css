@@ -1,0 +1,49 @@
+#container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+   border: solid 4px ;
+   padding: 50px 10px;
+   background-color: #1F7A5C;
+   height: 300px;
+   width: 650px;
+   margin: 0 auto;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bounce-arrow {
+    font-size: 2.5rem;
+    display:block  ;
+    animation: bounce 0.8s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+}
+button:hover{
+    background-color: hsl(210,100%,50%);            
+
+}
+button:active{background-color:hsl(210,100%,50%);  }
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
